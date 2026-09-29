@@ -8,7 +8,7 @@ import {
   yearlyMetrics, driftFit, offsetVsBeta, betaFit, headline, gallery,
 } from './data.js'
 
-const REPO = 'https://github.com/nandinitata/LASP-Project'
+const REPO = 'https://github.com/nandinitata/saa-explorer'
 
 /* ---- scroll reveal ---- */
 function useReveal() {
@@ -385,13 +385,11 @@ function Footer() {
           <h3 className="heat-text">South Atlantic Anomaly</h3>
           <p>
             A CU Boulder Data Science Capstone with LASP, analysing 23 years of TIMED-SEE EGS
-            dark-current data. All analysis code, generated figures, reports, and the full results
-            writeup live in the project repository.
+            dark-current data. This explorer visualizes the results — its source, the embedded
+            result data, and the curated figures live in the repository below.
           </p>
           <p style={{ marginTop: 18 }}>
-            <a href={REPO} target="_blank" rel="noreferrer">github.com/nandinitata/LASP-Project ↗</a>
-            {'  ·  '}
-            <a href={`${REPO}/blob/main/RESULTS.md`} target="_blank" rel="noreferrer">RESULTS.md ↗</a>
+            <a href={REPO} target="_blank" rel="noreferrer">github.com/nandinitata/saa-explorer ↗</a>
           </p>
         </div>
         <div className="foot-meta">

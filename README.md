@@ -5,7 +5,8 @@ Data Science project with LASP analysing 23 years of NASA TIMED-SEE EGS dark-cur
 (2002–2024).
 
 🛰️ **Live site:** https://nandinitata.github.io/saa-explorer/
-📊 **Analysis code & data:** https://github.com/nandinitata/LASP-Project
+
+The underlying analysis code and raw data live in a separate LASP project repository.
 
 ## What it shows
 
